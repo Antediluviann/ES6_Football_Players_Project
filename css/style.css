@@ -1,0 +1,93 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+/* HEADER */
+
+h1 {
+	font-size: 3.5em;
+	margin: 25px auto;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 30px auto;
+	letter-spacing: 1px;
+}
+
+header {
+	height: 100px;
+	background-color: #F1D600;
+	margin-bottom: 60px;
+	padding: 30px 50px;
+	text-align: left;
+}
+
+/* DIVS AND MAIN*/
+
+div#main {
+	width: 100%;
+}
+
+div#players,
+div#subs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+div.player {
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+	align-items: center;
+	margin: 20px 30px;
+	width: 20%;
+	display: flex;
+}
+
+div.player img {
+	display: block;
+	width: 65%;
+}
+
+div.player h4 {
+	font-size: 1.4em;
+	margin: 5px auto;
+	letter-spacing: 1px;
+}
+
+div.player h4.position {
+	margin-bottom: 10px;
+}
+
+div.player h3 {
+	font-size: 1.8em;
+	margin: 4px auto;
+	font-weight: bold;
+	border: 3px solid #F1D600;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+
+div.player p {
+	position: absolute;
+	left: 20%;
+	font-size: 1.5em;
+	padding: 10px 10px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
